@@ -1,4 +1,4 @@
-# Disable Drop Cap
+# Disable Drop Cap (v2)
 
 Plugin to disable drop cap in Gutenberg editor paragraph block.
 
