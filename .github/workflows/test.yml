@@ -43,7 +43,7 @@ jobs:
         run: composer install --prefer-dist --no-progress --no-suggest
 
       - name: Setup docker
-        run: docker-compose up -d --project-name ${{env.PLUGIN_SLUG}}
+        run: docker-compose --project-name ${{env.PLUGIN_SLUG}} up -d
 
       - name: Create config file
         run: touch .env.testing
