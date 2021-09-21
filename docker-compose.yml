@@ -31,7 +31,7 @@ services:
       - TEST_SITE_ADMIN_PASSWORD
     volumes:
       - wordpress:/var/www/html
-      - ./:/var/www/html/wp-content/plugins/remove-drop-cap
+      - ./:/var/www/html/wp-content/plugins/disable-drop-cap
 
   db:
     image: mysql:5.7
