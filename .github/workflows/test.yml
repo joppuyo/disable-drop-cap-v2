@@ -16,6 +16,7 @@ jobs:
     env:
       WP_DOCKER_TAG: ${{ matrix.wp_docker_tag }}
       PLUGIN_SLUG: disable-drop-cap
+      
     steps:
       - uses: actions/checkout@v1
 
@@ -42,7 +43,7 @@ jobs:
         run: composer install --prefer-dist --no-progress --no-suggest
 
       - name: Setup docker
-        run: docker-compose up -d
+        run: docker-compose up -d --project-name ${{env.PLUGIN_SLUG}}
 
       - name: Create config file
         run: touch .env.testing
