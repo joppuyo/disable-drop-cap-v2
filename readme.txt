@@ -1,7 +1,7 @@
 # Disable Drop Cap
 Requires at least: 5.5
 Tested up to: 5.8
-Requires PHP: 7.0
+Requires PHP: 7.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -33,6 +33,7 @@ This plugin does continue working in WordPress 5.8 but be aware of this alternat
 ### 2.0.0 (2021-XX-XX)
 * Breaking change: change plugin slug to disable-drop-cap
 * Breaking change: remove vendor file from repository
+* Breaking change: minimum PHP version is now 7.2 since there are no Docker images for earlier versions on WordPress 5.5. PHP 7.1 support ended in 2019 anyway.
 
 ### 1.3.1 (2021-09-20)
 * Fix: Fix deprecation error in WordPress 5.8
