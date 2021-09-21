@@ -30,6 +30,10 @@ This plugin does continue working in WordPress 5.8 but be aware of this alternat
 
 ## Changelog
 
+### 2.0.0 (2021-XX-XX)
+* Breaking change: change plugin slug to disable-drop-cap
+* Breaking change: remove vendor file from repository
+
 ### 1.3.1 (2021-09-20)
 * Fix: Fix deprecation error in WordPress 5.8
 
