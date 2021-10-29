@@ -13,12 +13,6 @@
 
 require __DIR__ . '/vendor/autoload.php';
 
-$plugin_update_checker = Puc_v4_Factory::buildUpdateChecker(
-    'https://github.com/joppuyo/disable-drop-cap',
-    __FILE__,
-    'remove-drop-cap'
-);
-
 add_action('init', 'disable_drop_cap_init');
 
 function disable_drop_cap_init() {
