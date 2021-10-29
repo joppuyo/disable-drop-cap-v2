@@ -30,10 +30,9 @@ This plugin does continue working in WordPress 5.8 but be aware of this alternat
 
 ## Changelog
 
-### 2.0.0 (2021-XX-XX)
+### 2.0.0 (2021-10-29)
 * Breaking change: change plugin slug to disable-drop-cap
-* Breaking change: remove vendor file from repository
-* Breaking change: minimum PHP version is now 7.2 since there are no Docker images for earlier versions on WordPress 5.5. PHP 7.1 support ended in 2019 anyway.
+* Breaking change: remove vendor files from repository
 * Fix: added automated tests
 
 ### 1.3.1 (2021-09-20)
