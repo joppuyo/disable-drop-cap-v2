@@ -26,7 +26,7 @@ jobs:
     #    SVN_PASSWORD: ${{ secrets.SVN_PASSWORD }}
   
     - name: Remove
-      run: rm -fr .github node_modules .nvmrc .editorconfig .gitignore .prettierrc.js .git tests
+      run: rm -fr .github node_modules .nvmrc .editorconfig .gitignore .prettierrc.js .git tests Dockerfile docker-compose.yml codeception.dist.yml
   
     - name: Zip
       run: rsync -av * ${{env.PLUGIN_SLUG}} && zip -r ${{env.PLUGIN_SLUG}}.zip ${{env.PLUGIN_SLUG}}
