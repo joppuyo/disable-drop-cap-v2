@@ -7,7 +7,9 @@ FROM wordpress:$wp_docker_tag
 # Add sudo in order to run wp-cli as the www-data user
 RUN apt-get update && apt-get install -y sudo less mariadb-client
 
-RUN pecl install xdebug-3.0.4 && docker-php-ext-enable xdebug
+ARG xdebug_version
+
+RUN pecl install xdebug-$xdebug_version && docker-php-ext-enable xdebug
 
 # Add WP-CLI
 RUN curl -o /bin/wp https://raw.githubusercontent.com/wp-cli/builds/gh-pages/phar/wp-cli.phar
