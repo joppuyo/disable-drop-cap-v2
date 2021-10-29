@@ -9,6 +9,7 @@
  * Author URI: https://siipo.la
  * License: GPLv2 or later
  * License URI: http://www.gnu.org/licenses/gpl-2.0.html
+ * Text Domain: disable-drop-cap
  */
 
 require __DIR__ . '/vendor/autoload.php';
