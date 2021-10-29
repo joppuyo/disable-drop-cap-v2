@@ -9,7 +9,7 @@ RUN apt-get update && apt-get install -y sudo less mariadb-client
 
 ARG xdebug_version
 
-RUN "pecl install xdebug-$xdebug_version" && docker-php-ext-enable xdebug
+RUN "pecl install $xdebug_version" && docker-php-ext-enable xdebug
 
 # Add WP-CLI
 RUN curl -o /bin/wp https://raw.githubusercontent.com/wp-cli/builds/gh-pages/phar/wp-cli.phar
