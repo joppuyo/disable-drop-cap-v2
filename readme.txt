@@ -4,6 +4,7 @@ Tested up to: 5.8
 Requires PHP: 7.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Stable Tag: 2.0.1
 
 Plugin to disable drop cap in Gutenberg editor paragraph block
 
@@ -29,6 +30,9 @@ With WordPress 5.8, you can use the new `theme.json` feature to disable drop cap
 This plugin does continue working in WordPress 5.8 but be aware of this alternative solution.
 
 ## Changelog
+
+### 2.0.1 (2021-10-30)
+* Fix: Add stable tag
 
 ### 2.0.0 (2021-10-29)
 * Breaking change: change plugin slug to disable-drop-cap
