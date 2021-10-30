@@ -63,7 +63,7 @@ function disable_drop_cap_editor_settings_5_6(array $editor_settings): array {
 }
 
 function disable_drop_cap_admin_footer() {
-        echo <<<HTML
+    echo <<<HTML
 <script>
 document.addEventListener("DOMContentLoaded", function () {
   var removeDropCap = function(settings, name) {
