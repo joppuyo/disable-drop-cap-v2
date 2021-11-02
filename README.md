@@ -23,3 +23,17 @@ This plugin does continue working in WordPress 5.8 but be aware of this alternat
 
 * WordPress 5.5, 5.6, 5.7 or 5.8
 * PHP 7.0 or later
+
+## Installation
+
+### WordPress plugin directory
+
+The plugin [is available](https://wordpress.org/plugins/disable-drop-cap/) in the WordPress plugin directory.
+
+### Composer
+
+The plugin can be installed using Composer using the [wpackagist.org](https://wpackagist.org/) repository.
+
+```
+composer require wpackagist-plugin/disable-drop-cap
+```
