@@ -6,7 +6,7 @@
 [![Active installs](https://img.shields.io/wordpress/plugin/installs/disable-drop-cap.svg?logo=wordpress)](https://wordpress.org/plugins/disable-drop-cap/advanced/)
 [![WordPress Plugin Rating](https://img.shields.io/wordpress/plugin/stars/disable-drop-cap?logo=wordpress)](https://wordpress.org/plugins/disable-drop-cap/#reviews)
 
-Plugin to disable drop cap in Gutenberg editor paragraph block.
+A plugin to disable drop cap option in the Gutenberg editor block editor paragraph block.
 
 ### Note for WordPress 5.8
 
