@@ -8,11 +8,11 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Donate link: https://github.com/sponsors/joppuyo
 Stable Tag: 2.0.7
 
-Plugin to disable drop cap option in the Gutenberg editor block editor paragraph block
+A plugin to disable drop cap option in the Gutenberg editor block editor paragraph block
 
 ## Description
 
-Plugin to disable drop cap option in the Gutenberg block editor editor paragraph block.
+A plugin to disable drop cap option in the Gutenberg block editor editor paragraph block.
 
 ### Note for WordPress 5.8
 
