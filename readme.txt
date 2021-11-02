@@ -4,6 +4,7 @@ Tested up to: 5.8
 Requires PHP: 7.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Donate link: https://github.com/sponsors/joppuyo
 Stable Tag: 2.0.3
 
 Plugin to disable drop cap option in the Gutenberg editor block editor paragraph block
