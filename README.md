@@ -10,7 +10,7 @@ A plugin to disable drop cap option in the Gutenberg editor block editor paragra
 
 ### Note for WordPress 5.8
 
-With WordPress 5.8, you can use the new `theme.json` feature to disable drop caps in your theme. Add a `theme.json` with the following content in the root of your theme.
+With WordPress 5.8, you can use the new `theme.json` feature to disable drop caps in your theme. Add a `theme.json` file with the following content in the root of your theme.
 
 ```json
 {
