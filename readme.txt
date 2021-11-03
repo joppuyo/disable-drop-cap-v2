@@ -1,5 +1,5 @@
 # Disable Drop Cap
-Tags: gutenberg, drop, cap, dropcap, disable, remove, hide, initial, first, letter, big
+Tags: gutenberg, drop, cap, dropcap, disable, remove, hide, initial, first, letter, big, large
 Requires at least: 5.5
 Tested up to: 5.8
 Requires PHP: 7.0
