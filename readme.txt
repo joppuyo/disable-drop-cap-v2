@@ -14,6 +14,8 @@ A plugin to disable drop cap option in the Gutenberg editor block editor paragra
 
 A plugin to disable drop cap option in the Gutenberg block editor editor paragraph block.
 
+You can find the plugin source code at [GitHub](https://github.com/joppuyo/disable-drop-cap-v2).
+
 ### Note for WordPress 5.8
 
 With WordPress 5.8, you can use the new `theme.json` feature to disable drop caps in your theme. Add a `theme.json` with the following content in the root of your theme.
