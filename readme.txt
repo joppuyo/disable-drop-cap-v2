@@ -1,4 +1,7 @@
 # Disable Drop Cap
+
+Contributors: joppuyo
+Tags: gutenberg, drop, cap, dropcap, disable, remove, hide, initial, first, letter, big, large
 Requires at least: 5.5
 Tested up to: 5.8
 Requires PHP: 7.0
@@ -7,15 +10,17 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Donate link: https://github.com/sponsors/joppuyo
 Stable Tag: 2.0.7
 
-Plugin to disable drop cap option in the Gutenberg editor block editor paragraph block
+A plugin to disable drop cap option in the Gutenberg editor block editor paragraph block
 
 ## Description
 
-Plugin to disable drop cap option in the Gutenberg block editor editor paragraph block.
+A plugin to disable drop cap option in the Gutenberg block editor editor paragraph block.
+
+You can find the plugin source code at [GitHub](https://github.com/joppuyo/disable-drop-cap-v2).
 
 ### Note for WordPress 5.8
 
-With WordPress 5.8, you can use the new `theme.json` feature to disable drop caps in your theme. Add a `theme.json` with the following content in the root of your theme.
+With WordPress 5.8, you can use the new `theme.json` feature to disable drop caps in your theme. Add a `theme.json` file with the following content in the root of your theme.
 
 `{
     "version": 1,

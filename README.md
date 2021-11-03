@@ -6,11 +6,11 @@
 [![Active installs](https://img.shields.io/wordpress/plugin/installs/disable-drop-cap.svg?logo=wordpress)](https://wordpress.org/plugins/disable-drop-cap/advanced/)
 [![WordPress Plugin Rating](https://img.shields.io/wordpress/plugin/stars/disable-drop-cap?logo=wordpress)](https://wordpress.org/plugins/disable-drop-cap/#reviews)
 
-Plugin to disable drop cap in Gutenberg editor paragraph block.
+A plugin to disable drop cap option in the Gutenberg editor block editor paragraph block.
 
 ### Note for WordPress 5.8
 
-With WordPress 5.8, you can use the new `theme.json` feature to disable drop caps in your theme. Add a `theme.json` with the following content in the root of your theme.
+With WordPress 5.8, you can use the new `theme.json` feature to disable drop caps in your theme. Add a `theme.json` file with the following content in the root of your theme.
 
 ```json
 {
