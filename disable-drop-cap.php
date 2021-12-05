@@ -1,5 +1,9 @@
 <?php
 
+if (!defined('ABSPATH')) {
+    die();
+}
+
 /*
  * Plugin name: Disable Drop Cap
  * Description: Plugin to disable drop cap in Gutenberg editor paragraph block
