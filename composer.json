@@ -2,6 +2,11 @@
     "name": "joppuyo/disable-drop-cap",
     "description": "Plugin to disable drop cap in Gutenberg editor paragraph block.",
     "license": "GPL-2.0-or-later",
+    "autoload": {
+        "psr-4": {
+            "Joppuyo\\": "src/"
+        }
+    },
     "authors": [
         {
             "name": "Johannes Siipola",
