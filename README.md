@@ -43,3 +43,7 @@ The plugin can be installed using Composer using the [wpackagist.org](https://wp
 ```
 composer require wpackagist-plugin/disable-drop-cap
 ```
+
+## Support the plugin
+
+Maintaining a plugin is a lot of work. If you want to support my work on WordPress plugins, please consider rating the plugin on [WordPress.org](https://wordpress.org/support/plugin/disable-drop-cap/reviews/#new-post) and supporting me on [GitHub sponsors](https://github.com/sponsors/joppuyo). Thank you!
