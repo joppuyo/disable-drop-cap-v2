@@ -46,4 +46,4 @@ composer require wpackagist-plugin/disable-drop-cap
 
 ## Support the plugin
 
-Maintaining a plugin is a lot of work. If you want to support my work on WordPress plugins, please consider rating the plugin on [WordPress.org](https://wordpress.org/support/plugin/disable-drop-cap/reviews/#new-post). You can also support me on [GitHub sponsors](https://github.com/sponsors/joppuyo). Thank you!
+Maintaining a WordPress plugin is a lot of work. If you like the plugin, please consider rating the plugin on [WordPress.org](https://wordpress.org/support/plugin/disable-drop-cap/reviews/#new-post). You can also support me on [GitHub sponsors](https://github.com/sponsors/joppuyo). Thank you!
