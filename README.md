@@ -47,3 +47,9 @@ composer require wpackagist-plugin/disable-drop-cap
 ## Support the plugin
 
 Maintaining a WordPress plugin is a lot of work. If you like the plugin, please consider rating it on [WordPress.org](https://wordpress.org/support/plugin/disable-drop-cap/reviews/#new-post). You can also support me on [GitHub sponsors](https://github.com/sponsors/joppuyo). Thank you!
+
+If you are interested, you can also check out my other WordPress plugins:
+
+* [Disable Media Pages](https://wordpress.org/plugins/disable-media-pages/)
+* [Disable Customizer](https://wordpress.org/plugins/customizer-disabler/)
+* [ACF Image Aspect Ratio Crop](https://wordpress.org/plugins/acf-image-aspect-ratio-crop/)

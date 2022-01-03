@@ -8,7 +8,7 @@ Requires PHP: 7.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Donate link: https://github.com/sponsors/joppuyo
-Stable Tag: 2.1.0
+Stable Tag: 2.1.1
 
 A plugin to disable drop cap option in the Gutenberg editor block editor paragraph block
 
@@ -37,12 +37,22 @@ This plugin does continue working in WordPress 5.8 but be aware of this alternat
 
 Maintaining a WordPress plugin is a lot of work. If you like the plugin, please consider rating it on [WordPress.org](https://wordpress.org/support/plugin/disable-drop-cap/reviews/#new-post). You can also support me on [GitHub sponsors](https://github.com/sponsors/joppuyo). Thank you!
 
+If you are interested, you can also check out my other WordPress plugins:
+
+* [Disable Media Pages](https://wordpress.org/plugins/disable-media-pages/)
+* [Disable Customizer](https://wordpress.org/plugins/customizer-disabler/)
+* [ACF Image Aspect Ratio Crop](https://wordpress.org/plugins/acf-image-aspect-ratio-crop/)
+
+
 ## Screenshots
 
 1. Without the plugin, the block editor paragraph block has an option for drop cap
 2. When the plugin is installed, the drop cap option has been removed
 
 ## Changelog
+
+### 2.1.1 (2021-01-03)
+* Fix: add updated icon
 
 ### 2.1.0 (2021-12-05)
 * Feature: improve code structure, move code to a namespaced class
