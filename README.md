@@ -28,7 +28,7 @@ This plugin does continue working in WordPress 5.8 but be aware of this alternat
 
 ## Requirements
 
-* WordPress 5.5, 5.6, 5.7 or 5.8
+* WordPress 5.5, 5.6, 5.7, 5.8 or 5.9
 * PHP 7.0 or later
 
 ## Installation
