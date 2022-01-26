@@ -5,6 +5,7 @@
 [![WordPress plugin](https://img.shields.io/wordpress/plugin/v/disable-drop-cap?logo=wordpress)](https://wordpress.org/plugins/disable-drop-cap/)
 [![Active installs](https://img.shields.io/wordpress/plugin/installs/disable-drop-cap.svg?logo=wordpress)](https://wordpress.org/plugins/disable-drop-cap/advanced/)
 [![WordPress Plugin Rating](https://img.shields.io/wordpress/plugin/stars/disable-drop-cap?logo=wordpress)](https://wordpress.org/plugins/disable-drop-cap/#reviews)
+[![Actively Maintained](https://img.shields.io/badge/Maintenance%20Level-Actively%20Maintained-green.svg)](https://gist.github.com/cheerfulstoic/d107229326a01ff0f333a1d3476e068d)
 
 A plugin to disable drop cap option in the Gutenberg editor block editor paragraph block.
 
@@ -27,7 +28,7 @@ This plugin does continue working in WordPress 5.8 but be aware of this alternat
 
 ## Requirements
 
-* WordPress 5.5, 5.6, 5.7 or 5.8
+* WordPress 5.5, 5.6, 5.7, 5.8 or 5.9
 * PHP 7.0 or later
 
 ## Installation
