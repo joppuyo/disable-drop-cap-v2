@@ -7,6 +7,7 @@ class AcceptanceCest
     public function _before(AcceptanceTester $I)
     {
         $I->cli(['core', 'update-db']);
+        $I->cli(['core', 'version']);
         $I->cli(['plugin', 'install', 'disable-welcome-messages-and-tips']);
         $I->cli(['plugin', 'activate', 'disable-welcome-messages-and-tips']);
         $I->cli(['option', 'update', 'blogname', 'Test']);
