@@ -8,7 +8,7 @@ if (!defined('ABSPATH')) {
  * Plugin name: Disable Drop Cap
  * Description: Plugin to disable drop cap in Gutenberg editor paragraph block
  * Plugin URI: https://github.com/joppuyo/disable-drop-cap-v2
- * Version: 2.1.4
+ * Version: 2.1.5
  * Requires at least: 5.5
  * Requires PHP: 7.0
  * Author: Johannes Siipola
