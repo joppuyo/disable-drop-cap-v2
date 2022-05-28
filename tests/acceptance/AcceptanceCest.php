@@ -15,10 +15,17 @@ class AcceptanceCest
 
     public function iSeeDropCap(AcceptanceTester $I)
     {
+        global $wp_version;
         $I->loginAsAdmin();
         $I->amOnPage('wp-admin/post-new.php');
         $I->click('.block-editor-default-block-appender__content');
         //$I->clickTextField();
+
+        if (version_compare($wp_version, '6.0', 'ge')) {
+            $I->click('//*[@id="editor"]/div/div[1]/div[1]/div[2]/div[3]/div/div[3]/div/div[3]/div[1]/div/button');
+            $I->wait(1);
+        }
+
         $I->see('Drop cap');
         $I->amOnUrl('https://google.com');
         $I->acceptPopup();
@@ -34,12 +41,20 @@ class AcceptanceCest
 
     public function iDontSeeDropCap(AcceptanceTester $I)
     {
+        global $wp_version;
+
         $I->loginAsAdmin();
         $I->amOnPluginsPage();
-        $I->wait(10);
+        $I->wait(5);
         $I->amOnPage('wp-admin/post-new.php');
         $I->click('.block-editor-default-block-appender__content');
         //$I->clickTextField();
+
+        if (version_compare($wp_version, '6.0', 'ge')) {
+            $I->click('//*[@id="editor"]/div/div[1]/div[1]/div[2]/div[3]/div/div[3]/div/div[3]/div[1]/div/button');
+            $I->wait(1);
+        }
+
         $I->dontSee('Drop cap');
     }
 

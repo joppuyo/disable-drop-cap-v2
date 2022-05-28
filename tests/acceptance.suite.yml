@@ -12,6 +12,7 @@ modules:
         - \Helper\Acceptance
         - WPCLI
         - WPWebDriver
+        - WPLoader
     config:
         WPDb:
             dsn: 'mysql:host=%TEST_SITE_DB_HOST%;dbname=%TEST_SITE_DB_NAME%'
@@ -45,3 +46,15 @@ modules:
             host: '%CHROMEDRIVER_HOST%'
             port: '%CHROMEDRIVER_PORT%'
             browser: chrome
+        WPLoader:
+            loadOnly: true
+            isolatedInstall: false
+            wpRootFolder: '%WP_ROOT_FOLDER%'
+            dbName: '%TEST_SITE_DB_NAME%'
+            dbHost: '%TEST_SITE_DB_HOST%'
+            dbUser: '%TEST_SITE_DB_USER%'
+            dbPassword: '%TEST_SITE_DB_PASSWORD%'
+            tablePrefix: '%TEST_SITE_TABLE_PREFIX%'
+            domain: '%TEST_SITE_WP_DOMAIN%'
+            adminEmail: '%TEST_SITE_ADMIN_EMAIL%'
+            title: 'Test site'
