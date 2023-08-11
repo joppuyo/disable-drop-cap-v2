@@ -1,7 +1,7 @@
 # Disable Drop Cap (v2)
 
-[![Build Status](https://img.shields.io/github/workflow/status/joppuyo/disable-drop-cap-v2/Build?logo=github)](https://github.com/joppuyo/disable-drop-cap-v2/actions)
-[![Test status](https://img.shields.io/github/workflow/status/joppuyo/disable-drop-cap-v2/Test?label=tests&logo=github)](https://github.com/joppuyo/disable-drop-cap-v2/actions)
+![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/joppuyo/disable-drop-cap-v2/build.yml?branch=main&logo=github)
+![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/joppuyo/disable-drop-cap-v2/test.yml?branch=main&logo=github&label=tests)
 [![WordPress plugin](https://img.shields.io/wordpress/plugin/v/disable-drop-cap?logo=wordpress)](https://wordpress.org/plugins/disable-drop-cap/)
 [![Active installs](https://img.shields.io/wordpress/plugin/installs/disable-drop-cap.svg?logo=wordpress)](https://wordpress.org/plugins/disable-drop-cap/advanced/)
 [![WordPress Plugin Rating](https://img.shields.io/wordpress/plugin/stars/disable-drop-cap?logo=wordpress)](https://wordpress.org/plugins/disable-drop-cap/#reviews)
