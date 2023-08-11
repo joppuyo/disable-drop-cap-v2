@@ -492,7 +492,9 @@ VALUES
 	(14,1,'dismissed_wp_pointers',''),
 	(15,1,'show_welcome_panel','1'),
 	(16,1,'session_tokens','a:1:{s:64:\"ec08ec234e7b8f60f35845d194f9397163c2d53e9cb2475b275e51cc38639f0d\";a:4:{s:10:\"expiration\";i:1628250473;s:2:\"ip\";s:9:\"127.0.0.1\";s:2:\"ua\";s:121:\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36\";s:5:\"login\";i:1627040873;}}'),
-	(17,1,'wp_dashboard_quick_press_last_post_id','6');
+	(17,1,'wp_dashboard_quick_press_last_post_id','6'),
+	(18, 1, 'wp_persisted_preferences', 'a:2:{s:14:"core/edit-post";a:2:{s:26:"isComplementaryAreaVisible";b:1;s:12:"welcomeGuide";b:0;}s:9:"_modified";s:24:"2023-06-14T12:53:32.859Z";}');
+
 
 /*!40000 ALTER TABLE `wp_usermeta` ENABLE KEYS */;
 UNLOCK TABLES;
