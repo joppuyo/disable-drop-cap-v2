@@ -19,8 +19,6 @@ class AcceptanceCest
         $I->loginAsAdmin();
         $I->amOnPage('wp-admin/post-new.php');
         
-        //$I->clickTextField();
-
         if (version_compare($wp_version, '6.3', 'ge')) {
             $I->switchToIFrame("editor-canvas");
             $I->wait(1);
@@ -30,7 +28,10 @@ class AcceptanceCest
             $I->click('.block-editor-default-block-appender__content');
         }
 
-        if (version_compare($wp_version, '6.0', 'ge')) {
+        if (version_compare($wp_version, '6.4', 'ge')) {
+            $I->click("aria-label='Typography options']");
+            $I->wait(1);
+        } else if (version_compare($wp_version, '6.0', 'ge')) {
             $I->click('//*[@id="editor"]/div/div[1]/div[1]/div[2]/div[3]/div/div[3]/div/div[3]/div[1]/div/button');
             $I->wait(1);
         }
@@ -44,7 +45,6 @@ class AcceptanceCest
     {
         $I->loginAsAdmin();
         $I->amOnPluginsPage();
-        //$I->activatePlugin('remove-drop-cap');
         $I->activatePlugin('disable-drop-cap');
     }
 
@@ -64,9 +64,11 @@ class AcceptanceCest
         } else {
             $I->click('.block-editor-default-block-appender__content');
         }
-        //$I->clickTextField();
 
-        if (version_compare($wp_version, '6.0', 'ge')) {
+        if (version_compare($wp_version, '6.4', 'ge')) {
+            $I->click("aria-label='Typography options']");
+            $I->wait(1);
+        } else if (version_compare($wp_version, '6.0', 'ge')) {
             $I->click('//*[@id="editor"]/div/div[1]/div[1]/div[2]/div[3]/div/div[3]/div/div[3]/div[1]/div/button');
             $I->wait(1);
         }
