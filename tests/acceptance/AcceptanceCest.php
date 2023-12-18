@@ -18,7 +18,7 @@ class AcceptanceCest
         global $wp_version;
         $I->loginAsAdmin();
         $I->amOnPage('wp-admin/post-new.php');
-        
+
         if (version_compare($wp_version, '6.3', 'ge')) {
             $I->switchToIFrame("editor-canvas");
             $I->wait(1);
@@ -29,7 +29,7 @@ class AcceptanceCest
         }
 
         if (version_compare($wp_version, '6.4', 'ge')) {
-            $I->click("aria-label='Typography options']");
+            $I->click("[aria-label='Typography options']");
             $I->wait(1);
         } else if (version_compare($wp_version, '6.0', 'ge')) {
             $I->click('//*[@id="editor"]/div/div[1]/div[1]/div[2]/div[3]/div/div[3]/div/div[3]/div[1]/div/button');
@@ -66,7 +66,7 @@ class AcceptanceCest
         }
 
         if (version_compare($wp_version, '6.4', 'ge')) {
-            $I->click("aria-label='Typography options']");
+            $I->click("[aria-label='Typography options']");
             $I->wait(1);
         } else if (version_compare($wp_version, '6.0', 'ge')) {
             $I->click('//*[@id="editor"]/div/div[1]/div[1]/div[2]/div[3]/div/div[3]/div/div[3]/div[1]/div/button');
